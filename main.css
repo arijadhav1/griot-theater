@@ -1,0 +1,261 @@
+.top-nav {
+    list-style-type: none;
+    text-align: center;
+    border: solid black 40px;
+    background-color: black;
+    padding: 70px;
+    position: relative;
+    bottom: 77px;
+    right: 23px;
+    width: 90%;
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+    margin: 40px;
+    color: white;
+}
+
+.show-links {
+    position: relative;
+    right: 40px;
+
+}
+
+.top-right {
+    position: absolute;
+    
+  left: 106px;
+}
+
+.first-image {
+    
+    position: relative;
+    right: 25px;
+    bottom: 100px;
+}
+
+.first-text {
+    position: absolute;
+    bottom: 80px;
+    font-size: 90px;
+    left: 320px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.home {
+    display: inline;
+    
+    
+}
+
+.features {
+    display: inline;
+    
+}
+.actors {
+    display: inline;
+}
+.mission {
+    display: inline;
+}
+.contact {
+    display: inline;
+}
+
+.april-h3 {
+    font-size: 20px;
+    border: solid black 1px;
+    font-weight: lighter;
+    position: relative;
+    
+}
+.april-text {
+    width: 1350px;
+    position: relative;
+    left: 280px;
+    background-color: #eee;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    grid-template-areas:
+        "raisin show-text read-button"
+        "raisin2 show-text2 read-button2"
+        "raisin3 show-text3 read-button3"
+        "raisin4 show-text4 read-button4"   
+}
+
+.second-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: black;
+    grid-template-areas:
+        "map info shows social"
+
+}
+
+.second-grid-container div {
+    justify-self: center;
+    align-self: center;
+    padding: 3em;
+    max-height: 50vh;
+    
+}
+
+embed {
+    width: 500px;
+    height: 300px;
+}
+
+.info-white {
+    color: white;
+    font-size: 40px;
+    
+}
+
+.shows-white {
+    color: white;
+    font-size: 40px;
+    
+}
+
+.social-white {
+    color: white;
+    font-size: 40px;
+    
+}
+
+.raisin {
+    grid-area: raisin;
+}
+
+.raisin2 {
+    grid-area: raisin2;
+}
+
+.raisin3 {
+    grid-area: raisin3;
+}
+
+.raisin4 {
+    grid-area: raisin4;
+}
+
+.show-text {
+    grid-area: show-text;
+}
+
+.show-text2 {
+    grid-area: show-text2;
+}
+
+.show-text3 {
+    grid-area: show-text3;
+}
+
+.show-text4 {
+    grid-area: show-text4;
+}
+
+.read-button {
+    grid-area: read-button;
+}
+
+.read-button2 {
+    grid-area: read-button2;
+}
+
+.read-button3 {
+    grid-area: read-button3;
+}
+
+.read-button4 {
+    grid-area: read-button4;
+}
+
+span {
+    color: white;
+    position: relative;
+    bottom: 10px;
+}
+
+.location {
+    width: 10%;
+    
+}
+.grid-container div {
+    justify-self: center;
+    align-self: center;
+    padding: 3em;
+    max-height: 50vh;
+}
+
+.grid-images {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 100px;
+    
+    
+}
+
+.info {
+    position: relative;
+    bottom: 60px;
+    grid-area: info;
+}
+
+
+.shows {
+    grid-area: shows;
+    position: relative;
+    bottom: 30px;
+}
+
+.social {
+    grid-area: social;
+    position: relative;
+    bottom: 30px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    
+}
+
+.show-text {
+    position: relative;
+    bottom: 50px;
+    
+}
+
+.small-raisin {
+    position: relative;
+    left: 22px;
+}
+
+p {
+    margin: 25px;
+}
+
+.read-more-button {
+    background-color: #F0C982;
+    font-size: 25px;
+    padding: 20px;
+    position: relative;
+    right: 30px;
+    bottom: 20px;;
+}
+
